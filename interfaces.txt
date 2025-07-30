@@ -1,0 +1,63 @@
+The interfaces we can  create by using interface
+
+example interface i1
+
+every interface can extend the another interface
+
+interface must not be decalred as final because some where we need to make it as implements
+
+the varibales inside the interface always "public static final int a=10";
+
+we can't make the interface varibles are private and protected
+
+ by deafulat it self interfaces are the public static final 
+
+examples about interface varibles are
+
+Interface varibles:
+
+int a;
+public static final int a;
+static final int a;
+final int a;
+
+all are same
+
+
+Interface Methods:
+
+
+the interface having the abstract methods and non absatract methods
+
+abstract methods means the methods which are not having body
+
+non abstract methods we can declare in interface in 3 ways only
+
+static type method name();
+
+default type method name();
+
+private type method name();
+
+
+
+Notes:
+
+the methods which are static those are not extended by child class those methods 
+
+we need to call directly by the interface name only.
+
+the methods which are default we can call directly by child class it is possible
+
+imp:
+
+the methods which are private if we need to access outside the class those methods are always write in the default method to access 
+
+if we try to put inside the static methods we cant because static can only access the static methods that is the reason only
+
+we cant create the objects for the interfaces but we can use it as a referce for the child methods 
+
+
+
+
+
